@@ -1,0 +1,13 @@
+# Entorno virtual (¡súper pesado e innecesario!)
+.venv/
+venv/
+
+# ¡¡EL MÁS IMPORTANTE!! Archivo de secretos
+.env
+
+# La "biblioteca" que creamos (se genera sola)
+faiss_index_store/
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
